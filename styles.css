@@ -12,7 +12,7 @@ display:flex;
 flex-basis:100%;
 align-items:center;
 justify-content:space-between;
-background-color:blue;
+/* background-color:blue; */
 color:white;
 padding: 20px;
 }
@@ -41,7 +41,7 @@ font-size:25px;
 .hero-section h2{
     color:white;
     font-size:40px;
-    font-weight:500;
+    font-weight:800;
 
 }
 .img-holder{
@@ -54,8 +54,40 @@ font-size:25px;
     background-color:grey;
 }
 .hero-para{
-    display:flex;
-    flex-shrink:0;
-    flex-basis:2%;
     color:white;
 }
+.hero-text{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.hero-text button{
+    background-color:#3882f6;
+    color:white;
+    border:none;
+    border-radius:8px;
+    padding:8px 32px;
+    font-weight:800;
+    font-size:18px;
+    width:fit-content;
+}
+.service-section{
+    padding:100px;
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+}
+.service-item{
+display:flex;
+background-color:#fff;
+border: 3px solid #3882f6;
+border-radius:3%;
+width:150px;
+height:150px;
+flex-shrink:0;
+justify-content:center;
+align-items:center;
+}
+.service-title{}
