@@ -75,6 +75,7 @@ font-size:25px;
     padding:100px;
     background-color:white;
     display:flex;
+    flex-direction:column;
     justify-content:center;
     align-items:center;
     gap:50px;
@@ -90,4 +91,9 @@ flex-shrink:0;
 justify-content:center;
 align-items:center;
 }
-.service-title{}
+.service-items{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
